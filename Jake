@@ -1,0 +1,5 @@
+function replaceCharacter(string, index, char) {
+  return string.substring(0, index) + char + string.substring(index+1, string.length);
+}
+
+replaceCharacter("Gdańsk", 3, "n")
